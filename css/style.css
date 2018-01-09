@@ -1,0 +1,170 @@
+*
+{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body, html
+{
+  font-family: rambla;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+html
+{
+  background-color: grey;
+  width: 100%;
+}
+
+body
+{
+  background-image: url("../img/desertBackground.jpeg");
+  background-color: white;
+  width: 75%;
+  height: 100vh;
+  margin: auto;
+}
+
+#Nav-Bar
+{
+  background-color: rgba(0,0,0,.75);
+  color: white;
+  margin-top: 2%;
+  position: relative;
+  /* z-index: 2; */
+}
+#Nav-Bar a
+{
+  transition: all .25s ease-out;
+  transition-property: color;
+}
+
+#Nav-Bar a:hover
+{
+  color:#a40606
+}
+
+#Nav-Bar-Inner-Container
+{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand
+{
+  margin: auto;
+}
+
+.dropdown-menu
+{
+  background-color: gray;
+  border-color: grey;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.dropdown-item
+{
+  color: white;
+  text-align: center;
+}
+
+.dropdown-item:focus, .dropdown-item:hover
+{
+  background-color: inherit;
+}
+
+#Body-Container
+{
+
+display: block;
+
+width: 80%;
+
+height: 82%;
+
+background-color: rgba(0,0,0,.0);
+
+margin: auto;
+
+margin-top: 3%;
+
+padding: 15% 10% 1% 10%;
+
+border-radius: .25rem;
+}
+
+#Body-Text
+{
+
+color: white;
+}
+
+#Body-Text h3
+{
+
+margin-top: 9%;
+
+line-height: 1.75;
+}
+
+#Body-Text h1
+{
+
+}
+
+#Body-Image-Container
+{
+
+}
+
+#Footer
+{
+
+}
+
+#Footer-Table
+{
+
+}
+
+@media only screen and (min-width: 1084px)
+{
+  #Nav-Bar-Inner-Container
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+    margin-left: 18%;
+  }
+
+  #nav-ul
+  {
+    margin: auto;
+    margin-left: 8%;
+    width: 81%;
+  }
+
+  .navbar-nav
+  {
+    justify-content: space-evenly;
+  }
+
+  .dropdown-menu
+  {
+    margin-left: -85%;
+    margin-top: 7%;
+    border-color: grey;
+    border-width: 6px;
+    border-top: solid 6px grey;
+    border-radius: 0px 0px .25rem 0.25rem;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-right: grey;
+  }
+}
