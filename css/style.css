@@ -20,7 +20,7 @@ html
 body
 {
   background-image: url("../img/desertBackground.jpeg");
-  background-color: white;
+  background-position-y: 18%;
   width: 75%;
   height: 100vh;
   margin: auto;
@@ -29,15 +29,15 @@ body
 #Nav-Bar
 {
   background-color: rgba(0,0,0,.75);
-  color: white;
-  margin-top: 2%;
+  margin-top: 1%;
   position: relative;
-  /* z-index: 2; */
+  box-shadow: 4px 4px 11px rgba(0,0,0,.5);
 }
 #Nav-Bar a
 {
   transition: all .25s ease-out;
   transition-property: color;
+  color: lemonchiffon;
 }
 
 #Nav-Bar a:hover
@@ -55,6 +55,11 @@ body
 .navbar-brand
 {
   margin: auto;
+  margin-left: -5%;
+  padding: 0;
+  color: lemonchiffon !important;
+  font-family: 'Amatic SC', cursive;
+  font-size: 34px;
 }
 
 .dropdown-menu
@@ -92,7 +97,7 @@ margin: auto;
 
 margin-top: 3%;
 
-padding: 15% 10% 1% 10%;
+padding: 10% 16% 1% 16%;
 
 border-radius: .25rem;
 }
@@ -114,6 +119,23 @@ line-height: 1.75;
 #Body-Text h1
 {
 
+font-size: 149px;
+
+letter-spacing: 10px;
+
+color: lemonchiffon;
+
+/* font-weight: bold; */
+
+font-family: 'Caveat Brush', cursive;
+
+font-family: 'Pacifico', cursive;
+
+/* font-family: 'Permanent Marker', cursive; */
+
+font-family: 'Amatic SC', cursive;
+
+text-shadow: 5px 4px 3px rgba(0,0,0, .5);
 }
 
 #Body-Image-Container
@@ -143,6 +165,11 @@ line-height: 1.75;
     margin-left: 18%;
   }
 
+  .navbar-brand:hover
+  {
+    cursor: default;
+  }
+
   #nav-ul
   {
     margin: auto;
@@ -158,7 +185,7 @@ line-height: 1.75;
   .dropdown-menu
   {
     margin-left: -85%;
-    margin-top: 7%;
+    margin-top: 13%;
     border-color: grey;
     border-width: 6px;
     border-top: solid 6px grey;
@@ -166,5 +193,11 @@ line-height: 1.75;
     border-left-width: 6px;
     border-left-style: solid;
     border-right: grey;
+    box-shadow: 4px 4px 11px rgba(0,0,0,.5);
+  }
+
+  #Body-Text h1:hover
+  {
+    cursor: default;
   }
 }
