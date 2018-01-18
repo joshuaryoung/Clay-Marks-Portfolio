@@ -298,16 +298,46 @@ justify-content: space-around;
 
   .table-cell-text
   {
-    position: absolute;
-    left: 16.125%;
-    width: 9%;
-    top: 10vh;
     transform: scale3d(.75, .75, .75);
     transition: all .25s ease-out;
     transition-property: transform;
     cursor: default;
     font-size: 23px;
     font-family: 'Amatic SC', cursive;
+  }
+
+  .table-cell-text00
+  {
+    position: absolute;
+    left: 16.125%;
+    width: 9%;
+    top: 9.5vh;
+  }
+
+  .table-cell-text01
+  {
+    position: absolute;
+    left: 35.7%;
+    width: 9%;
+    top: 9.5vh;
+  }
+
+
+  .table-cell-text02
+  {
+    position: absolute;
+    left: 55.125%;
+    width: 9%;
+    top: 11vh;
+  }
+
+
+  .table-cell-text03
+  {
+    position: absolute;
+    left: 74.7%;
+    width: 9%;
+    top: 11.125vh;
   }
 
   .table-cell:hover .table-cell-text
