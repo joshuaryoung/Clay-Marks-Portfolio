@@ -309,7 +309,7 @@ justify-content: space-around;
   .table-cell-text00
   {
     position: absolute;
-    left: 16.125%;
+    left: 16.25%;
     width: 9%;
     top: 9.5vh;
   }
@@ -317,7 +317,7 @@ justify-content: space-around;
   .table-cell-text01
   {
     position: absolute;
-    left: 35.7%;
+    left: 35.75%;
     width: 9%;
     top: 9.5vh;
   }
@@ -326,9 +326,9 @@ justify-content: space-around;
   .table-cell-text02
   {
     position: absolute;
-    left: 55.125%;
+    left: 55.25%;
     width: 9%;
-    top: 11vh;
+    top: 13vh;
   }
 
 
