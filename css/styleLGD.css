@@ -312,7 +312,7 @@ justify-content: space-around;
 
   .table-cell:hover .table-cell-text
   {
-    transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);d
     transition: all .25s ease-out;
   }
 
@@ -328,7 +328,7 @@ justify-content: space-around;
   }
 
   .modal-dialog {
-    top: 20vh;
+    top: 14vh;
   }
 
   .modal-title{
