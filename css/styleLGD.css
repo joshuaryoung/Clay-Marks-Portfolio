@@ -371,16 +371,12 @@ font-size: 50px;
 
 }
 
-  .modal-body{
-
-text-align: center;
-
-font-family: 'Amatic SC', cursive;
-
-font-size: 26px;
-
-padding-bottom: 28px;
-
+  .modal-body
+  {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    padding-bottom: 28px;
 }
 
 }
