@@ -38,6 +38,7 @@ body
   transition: all .25s ease-out;
   transition-property: color;
   color: lemonchiffon;
+  font-family: 'Amatic SC', cursive;
 }
 
 #Nav-Bar a:hover
@@ -101,52 +102,36 @@ body
 
 #Body-Text-Container h2
 {
-
-font-size: 65px;
-
-letter-spacing: 10px;
-
-color: lemonchiffon;
-
-/* font-weight: bold; */
-
-font-family: 'Caveat Brush', cursive;
-
-font-family: 'Pacifico', cursive;
-
-/* font-family: 'Permanent Marker', cursive; */
-
-font-family: 'Amatic SC', cursive;
-
-text-shadow: 5px 4px 3px rgba(0,0,0, .5);
+  font-size: 65px;
+  letter-spacing: 10px;
+  color: lemonchiffon;
+  /* font-weight: bold; */
+  font-family: 'Caveat Brush', cursive;
+  font-family: 'Pacifico', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 5px 4px 3px rgba(0,0,0, .5);
 }
 
-#Body-Table img{
+#Body-Table img
+{
 
 }
 
 #Body-Table-Row1
 {
-
-/* margin: auto; */
-
-display: flex;
-
-flex-direction: row;
-
-justify-content: space-around;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #Body-Table-Row2
 {
-
-/* margin: auto; */
-
-display: flex;
-
-flex-direction: row;
-
-justify-content: space-around;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #Footer
@@ -187,6 +172,7 @@ justify-content: space-around;
   {
     margin-left: -5%;
     cursor: default;
+    font-size: 37px;
   }
 
   .dropdown-menu
@@ -201,6 +187,11 @@ justify-content: space-around;
     border-left-style: solid;
     border-right: grey;
     box-shadow: 4px 4px 11px rgba(0,0,0,.5);
+  }
+
+  .navbar-nav a
+  {
+    font-size: 26px;
   }
 
   #Body-Container
@@ -246,38 +237,41 @@ justify-content: space-around;
     padding-bottom: 4%;
   }
 
-  #carouselIndicators{
-  background-color: rgba(0,0,0,.25);
-  width: 49vw;
-  margin: auto;
-  border-radius: 16px;
+  #carouselIndicators
+  {
+    background-color: rgba(0,0,0,.25);
+    width: 49vw;
+    margin: auto;
+    border-radius: 16px;
   }
 
-  .carousel-inner{
+  .carousel-inner
+  {
+
   }
 
-  .carousel-indicators{
-
-  bottom: 19px;
+  .carousel-indicators
+  {
+    bottom: 19px;
   }
 
   .carousel-item{
     margin:
   }
 
-  .carousel-control-prev{
-
-  left: 2.35vw;
-  width: 3vw;
-  height: 30vh;
-  top: 11.33vh;
+  .carousel-control-prev
+  {
+    left: 2.35vw;
+    width: 3vw;
+    height: 30vh;
+    top: 11.33vh;
   }
 
-  .carousel-control-next{
-
-  height: 30vh;
-  top: 11.33vh;
-  right: .125vw;
+  .carousel-control-next
+  {
+    height: 30vh;
+    top: 11.33vh;
+    right: .125vw;
   }
 
   #Body-Table
@@ -340,6 +334,38 @@ justify-content: space-around;
     top: 11.125vh;
   }
 
+  .table-cell-text10
+  {
+    position: absolute;
+    left: 16.25%;
+    width: 9%;
+    top: 32.825vh;
+  }
+
+  .table-cell-text11
+  {
+    position: absolute;
+    left: 35.667%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
+  .table-cell-text12
+  {
+    position: absolute;
+    left: 55.125%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
+  .table-cell-text13
+  {
+    position: absolute;
+    left: 74.7%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
   .table-cell:hover .table-cell-text
   {
     transform: scale3d(1, 1, 1);d
@@ -358,18 +384,14 @@ justify-content: space-around;
   }
 
   .modal-dialog {
-    top: 14vh;
+    /* top: 14vh; */
   }
 
   .modal-title{
-
-margin: auto;
-
-font-family: 'Amatic SC', cursive;
-
-font-size: 50px;
-
-}
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+  }
 
   .modal-body
   {
@@ -377,6 +399,47 @@ font-size: 50px;
     font-family: 'Amatic SC', cursive;
     font-size: 26px;
     padding-bottom: 28px;
-}
+    /* height: 115px; */
+  }
+
+  #ModalCenter00 .modal-content
+  {
+    top: 84px;
+  }
+
+  #ModalCenter01 .modal-content
+  {
+    top: 83px;
+  }
+
+  #ModalCenter02 .modal-content
+  {
+    top: 86px;
+  }
+
+  #ModalCenter03 .modal-content
+  {
+    top: 87px;
+  }
+
+  #ModalCenter10 .modal-content
+  {
+    top: 100px;
+  }
+
+  #ModalCenter11 .modal-content
+  {
+    top: 89px;
+  }
+
+  #ModalCenter12 .modal-content
+  {
+    top: 40px;
+  }
+
+  #ModalCenter13 .modal-content
+  {
+    top: 86px;
+  }
 
 }
