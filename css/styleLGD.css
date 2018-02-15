@@ -402,6 +402,11 @@ body
     /* height: 115px; */
   }
 
+  .modal-content
+  {
+    cursor: default;
+  }
+
   #ModalCenter00 .modal-content
   {
     top: 84px;
