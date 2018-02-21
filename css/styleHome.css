@@ -104,10 +104,7 @@ border-radius: .25rem;
 }
 
 #Body-Text
-{
-
-color: white;
-}
+{padding-bottom: 6vh;}
 
 #Body-Text h3
 {
@@ -207,34 +204,45 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
   #Body-Container
   {
     display: block;
-    width: 80%;
+    width: 73%;
     height: 82%;
     background-color: rgba(0,0,0,.0);
     margin: auto;
     margin-top: 3%;
-    padding: 10% 16% 1% 16%;
+    padding: 4% 16% 1% 16%;
     border-radius: .25rem;
   }
 
   #Body-Text h1
   {
     font-size: 149px;
-
     letter-spacing: 10px;
-
+    line-height: 162px;
     color: lemonchiffon;
-
-    /* font-weight: bold; */
-
-    font-family: 'Caveat Brush', cursive;
-
-    font-family: 'Pacifico', cursive;
-
-    /* font-family: 'Permanent Marker', cursive; */
-
     font-family: 'Amatic SC', cursive;
-
     text-shadow: 5px 4px 3px rgba(0,0,0, .5);
     cursor: default;
+  }
+
+  #Body-Text2
+  {
+  }
+
+  #Body-Text2 h3
+  {
+    color: lemonchiffon;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 5px 4px 2px rgba(0,0,0, .875);
+    cursor: default;
+    font-size: 37px;
+  }
+
+  #Body-Text3 h3
+  {
+    color: lemonchiffon;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 5px 4px 3px rgba(0,0,0, .875);
+    cursor: default;
+    font-size: 37px;
   }
 }
