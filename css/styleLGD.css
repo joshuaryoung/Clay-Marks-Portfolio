@@ -134,6 +134,22 @@ body
   justify-content: space-around;
 }
 
+#Body-Table-Row11
+{
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#Body-Table-Row12
+{
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 #Footer
 {
 
@@ -215,14 +231,14 @@ body
 
   #Body-Text-Container h2
   {
-    font-size: 91px;
-    letter-spacing: 10px;
+    font-size: 80px;
+    letter-spacing: -1px;
     color: lemonchiffon;
     /* font-weight: bold; */
     font-family: 'Caveat Brush', cursive;
     font-family: 'Pacifico', cursive;
     /* font-family: 'Permanent Marker', cursive; */
-    font-family: 'Amatic SC', cursive;
+    font-family: 'permanent marker', cursive;
     text-shadow: 5px 4px 3px rgba(0,0,0, .5);
     cursor: default;
   }
@@ -366,6 +382,70 @@ body
     top: 33.825vh;
   }
 
+  .table-cell-text100
+  {
+    position: absolute;
+    left: 16.125%;
+    width: 9%;
+    top: 10.825vh;
+  }
+
+  .table-cell-text101
+  {
+    position: absolute;
+    left: 35.713%;
+    width: 9%;
+    top: 12.5vh;
+  }
+
+  .table-cell-text102
+  {
+    position: absolute;
+    left: 55.25%;
+    width: 9%;
+    top: 10.5vh;
+  }
+
+  .table-cell-text103
+  {
+    position: absolute;
+    left: 74.7%;
+    width: 9%;
+    top: 12.5vh;
+  }
+
+  .table-cell-text110
+  {
+    position: absolute;
+    left: 16.25%;
+    width: 9%;
+    top: 35.25vh;
+  }
+
+  .table-cell-text111
+  {
+    position: absolute;
+    left: 35.667%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
+  .table-cell-text112
+  {
+    position: absolute;
+    left: 55.125%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
+  .table-cell-text113
+  {
+    position: absolute;
+    left: 74.7%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
   .table-cell:hover .table-cell-text
   {
     transform: scale3d(1, 1, 1);d
@@ -443,6 +523,46 @@ body
   }
 
   #ModalCenter13 .modal-content
+  {
+    top: 86px;
+  }
+
+  #ModalCenter100 .modal-content
+  {
+    top: 84px;
+  }
+
+  #ModalCenter101 .modal-content
+  {
+    top: 84px;
+  }
+
+  #ModalCenter102 .modal-content
+  {
+    top: 86px;
+  }
+
+  #ModalCenter103 .modal-content
+  {
+    top: 87px;
+  }
+
+  #ModalCenter110 .modal-content
+  {
+    top: 87px;
+  }
+
+  #ModalCenter111 .modal-content
+  {
+    top: 89px;
+  }
+
+  #ModalCenter112 .modal-content
+  {
+    top: 87px;
+  }
+
+  #ModalCenter113 .modal-content
   {
     top: 86px;
   }
