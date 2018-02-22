@@ -24,7 +24,6 @@ body
   width: 75%;
   height: 100vh;
   margin: auto;
-  padding: 0 !important;
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -208,7 +207,7 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
   #Body-Container
   {
     display: block;
-    width: 83%;
+    width: 85%;
     height: 82%;
     background-color: rgba(0,0,0,.0);
     margin: auto;
