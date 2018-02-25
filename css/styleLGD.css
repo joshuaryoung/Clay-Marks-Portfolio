@@ -232,7 +232,7 @@ body
   #Body-Text-Container h2
   {
     font-size: 101px;
-    letter-spacing: 3px;
+    letter-spacing: -1px;
     color: lemonchiffon;
     /* font-weight: bold; */
     font-family: 'amatic sc', cursive;
