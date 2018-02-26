@@ -19,8 +19,9 @@ html
 
 body
 {
-  background-image: url("../img/desertBackground.jpeg");
-  background-position-y: 18%;
+  background-image: url("../img/VM.jpg");
+  background-position-y: 29%;
+  background-size: cover;
   width: 75%;
   height: 100vh;
   margin: auto;
