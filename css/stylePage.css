@@ -19,8 +19,8 @@ html
 
 body
 {
-  background-image: url("../img/VM.jpg");
-  background-position-y: 30%;
+  background-image: url("../img/vulturesAdjusted.jpg");
+  background-position-y: 57%;
   width: 75%;
   height: 100vh;
   margin: auto;
@@ -99,26 +99,23 @@ margin: auto;
 
 margin-top: 3%;
 
-padding: 9% 0% 1% 0%;
+padding: 27% 0% 1% 0%;
 
 border-radius: .25rem;
 }
 
 #Body-Text
 {
-
-color: white;
+  padding-bottom: 2vh;
 }
 
 #Body-Text h3
 {
-
-margin-top: 9%;
-
-line-height: 1.75;
+  margin-top: 9%;
+  line-height: 1.75;
 }
 
-#Body-Text h2
+#Body-Text h1
 {
 
 font-size: 65px;
@@ -205,40 +202,192 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
     box-shadow: 4px 4px 11px rgba(0,0,0,.5);
   }
 
-  #Body-Container
+  #Body-Table-Container
   {
-    display: block;
-    width: 80%;
-    height: 82%;
-    background-color: rgba(0,0,0,.0);
-    margin: auto;
-    margin-top: 3%;
-    padding: 10% 16% 1% 16%;
-    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 44vh;
+    padding: 1% 2%;
   }
+
+  #carouselIndicators
+  {
+    background-color: rgba(0,0,0,.25);
+    width: 40vw;
+    margin: auto;
+    margin-top: 0vh;
+    border-radius: 16px;
+  }
+
   #Body-Container
   {
     display: block;
-    width: 80%;
-    height: 82%;
+    width: 73%;
+    height: auto;
     background-color: rgba(0,0,0,.0);
     margin: auto;
-    margin-top: 3%;
-    padding: 1% 12% 1% 12%;
+    margin-top: 8%;
+    padding: 4% 16% 1% 16%;
     border-radius: .25rem;
   }
 
-  #Body-Text h2
+  #Body-Text h1
   {
-    font-size: 91px;
-    letter-spacing: 10px;
+    font-size: 135px;
+    letter-spacing: 0px;
+    line-height: 162px;
     color: lemonchiffon;
-    /* font-weight: bold; */
-    font-family: 'Caveat Brush', cursive;
-    font-family: 'Pacifico', cursive;
-    /* font-family: 'Permanent Marker', cursive; */
     font-family: 'Amatic SC', cursive;
-    text-shadow: 5px 4px 3px rgba(0,0,0, .5);
+    text-shadow: 6px 5px 7px rgba(0,0,0, .75);
     cursor: default;
+    margin-top: -0.5vh;
+    margin-left: 0vh;
+  }
+
+  #Body-Text2
+  {
+  }
+
+  #Body-Container h3
+  {
+    color: lemonchiffon;
+    text-shadow: 5px 4px 3px rgba(0,0,0, .75);
+    font-size: 43px;
+  }
+
+  #Body-Text2 h3
+  {
+    font-family: 'Amatic SC', cursive;
+    cursor: default;
+  }
+
+  #Body-Text3 h3
+  {
+    font-family: 'Amatic SC', cursive;
+    cursor: default;
+  }
+
+  #Body-Table-Row1
+  {
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #Body-Table-Row2
+  {
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #Body-Table
+  {
+    margin: auto;
+    height: 100%;
+    max-width: 100%;
+    table-layout: auto;
+  }
+
+  .table-cell-image
+  {
+    box-shadow: 2px 3px 5px rgba(0,0,0,.5);
+    transform: scale3d(.75, .75, .75);
+    transition: all .25s ease-out;
+    transition-property: transform;
+  }
+
+  .table-cell-text
+  {
+    transform: scale3d(.75, .75, .75);
+    transition: all .25s ease-out;
+    transition-property: transform;
+    cursor: default;
+    font-size: 23px;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .table-cell-text00
+  {
+    position: absolute;
+    left: 16.25%;
+    width: 9%;
+    top: 9.5vh;
+  }
+
+  .table-cell-text01
+  {
+    position: absolute;
+    left: 35.75%;
+    width: 9%;
+    top: 9.5vh;
+  }
+
+
+  .table-cell-text02
+  {
+    position: absolute;
+    left: 55.25%;
+    width: 9%;
+    top: 13vh;
+  }
+
+
+  .table-cell-text03
+  {
+    position: absolute;
+    left: 74.7%;
+    width: 9%;
+    top: 11.125vh;
+  }
+
+  .table-cell-text10
+  {
+    position: absolute;
+    left: 16.25%;
+    width: 9%;
+    top: 32.825vh;
+  }
+
+  .table-cell-text11
+  {
+    position: absolute;
+    left: 35.667%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
+  .table-cell-text12
+  {
+    position: absolute;
+    left: 55.125%;
+    width: 9%;
+    top: 33.825vh;
+  }
+
+  .table-cell-text13
+  {
+    position: absolute;
+    left: 74.7%;
+    width: 9%;
+    top: 33.825vh;
+  }
+.table-cell:hover .table-cell-text
+  {
+    transform: scale3d(1, 1, 1);d
+    transition: all .25s ease-out;
+  }
+
+  .table-cell:hover .table-cell-image
+  {
+    transform: scale3d(1, 1, 1);
+    transition: all .25s ease-out;
+  }
+
+  .table-cell
+  {
+    display: inline-block;
   }
 }
