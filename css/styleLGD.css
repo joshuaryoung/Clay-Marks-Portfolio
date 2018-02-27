@@ -256,6 +256,7 @@ body
     width: 49vw;
     margin: auto;
     border-radius: 16px;
+    box-shadow: 4px 4px 11px rgba(0,0,0,.5);
   }
 
   .carousel-inner

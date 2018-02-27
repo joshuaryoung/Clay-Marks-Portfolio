@@ -19,8 +19,8 @@ html
 
 body
 {
-  background-image: url("../img/sandstoneAdjusted.jpg");
-  background-position-y: 57%;
+  background-image: url("../img/Camp_fireAdjusted.jpg");
+  background-position-y: 30%;
   width: 75%;
   height: 100vh;
   margin: auto;
@@ -29,10 +29,10 @@ body
 
 #Nav-Bar
 {
-  background-color: rgba(0,0,0,.75);
+  background-color: rgba(255,255,255,.13);
   margin-top: 1%;
   position: relative;
-  box-shadow: 4px 4px 11px rgba(0,0,0,.5);
+  box-shadow: 4px 4px 11px rgba(255,255,255,.1);
 }
 
 #Nav-Bar a
@@ -213,11 +213,12 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
 
   #carouselIndicators
   {
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(255,255,255,.1);
     width: 40vw;
     margin: auto;
     margin-top: 3vh;
     border-radius: 16px;
+    box-shadow: 4px 4px 11px rgba(255,255,255,.1);
   }
 
   #Body-Container
