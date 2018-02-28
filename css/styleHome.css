@@ -19,20 +19,22 @@ html
 
 body
 {
-  background-image: url("../img/Camp_fireAdjusted.jpg");
-  background-position-y: 30%;
+  background-image: url("../img/sandstoneAdjusted.jpg");
+  background-position-y: 59%;
   width: 75%;
   height: 100vh;
   margin: auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
   background-size: cover;
 }
 
 #Nav-Bar
 {
-  background-color: rgba(255,255,255,.13);
+  background-color: rgba(0,0,0,.75);
   margin-top: 1%;
   position: relative;
-  box-shadow: 4px 4px 11px rgba(255,255,255,.1);
+  box-shadow: 4px 4px 11px rgba(0,0,0,.5);
 }
 
 #Nav-Bar a
@@ -202,25 +204,6 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
     box-shadow: 4px 4px 11px rgba(0,0,0,.5);
   }
 
-  #Body-Table-Container
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 44vh;
-    padding: 1% 2%;
-  }
-
-  #carouselIndicators
-  {
-    background-color: rgba(255,255,255,.1);
-    width: 40vw;
-    margin: auto;
-    margin-top: 3vh;
-    border-radius: 16px;
-    box-shadow: 4px 4px 11px rgba(255,255,255,.1);
-  }
-
   #Body-Container
   {
     display: block;
@@ -235,15 +218,13 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
 
   #Body-Text h1
   {
-    font-size: 135px;
-    letter-spacing: 0px;
+    font-size: 149px;
+    letter-spacing: 10px;
     line-height: 162px;
     color: lemonchiffon;
     font-family: 'Amatic SC', cursive;
-    text-shadow: 6px 5px 7px rgba(0,0,0, .75);
+    text-shadow: 5px 4px 3px rgba(0,0,0, .5);
     cursor: default;
-    margin-top: 3.5vh;
-    margin-left: 0vh;
   }
 
   #Body-Text2
@@ -268,128 +249,4 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
     font-family: 'Amatic SC', cursive;
     cursor: default;
   }
-
-  #Body-Table-Row1
-  {
-    /* margin: auto; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  #Body-Table-Row2
-  {
-    /* margin: auto; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  #Body-Table
-  {
-    margin: auto;
-    height: 100%;
-    max-width: 100%;
-    table-layout: auto;
-  }
-
-  .table-cell-image
-  {
-    box-shadow: 2px 3px 5px rgba(0,0,0,.5);
-    transform: scale3d(.75, .75, .75);
-    transition: all .25s ease-out;
-    transition-property: transform;
-  }
-
-  .table-cell-text
-  {
-    transform: scale3d(.75, .75, .75);
-    transition: all .25s ease-out;
-    transition-property: transform;
-    cursor: default;
-    font-size: 23px;
-    font-family: 'Amatic SC', cursive;
-  }
-
-  .table-cell-text00
-  {
-    position: absolute;
-    left: 9.4%;
-    width: 9%;
-    top: 7.5vh;
-  }
-
-  .table-cell-text01
-  {
-    position: absolute;
-    left: 33.59%;
-    width: 9%;
-    top: 9.5vh;
-  }
-
-
-  .table-cell-text02
-  {
-    position: absolute;
-    left: 57.5%;
-    width: 9%;
-    top: 6vh;
-  }
-
-
-  .table-cell-text03
-  {
-    position: absolute;
-    left: 81.4%;
-    width: 9%;
-    top: 7.85vh;
-  }
-
-  .table-cell-text10
-  {
-    position: absolute;
-    left: 9.4%;
-    width: 9%;
-    top: 28.25vh;
-  }
-
-  .table-cell-text11
-  {
-    position: absolute;
-    left: 33.59%;
-    width: 9%;
-    top: 28.5vh;
-  }
-
-  .table-cell-text12
-  {
-    position: absolute;
-    left: 57.5%;
-    width: 9%;
-    top: 28vh;
-  }
-
-  .table-cell-text13
-  {
-    position: absolute;
-    left: 81.4%;
-    width: 9%;
-    top: 28.5vh;
-  }
-.table-cell:hover .table-cell-text
-  {
-    transform: scale3d(1, 1, 1);d
-    transition: all .25s ease-out;
-  }
-
-  .table-cell:hover .table-cell-image
-  {
-    transform: scale3d(1, 1, 1);
-    transition: all .25s ease-out;
-  }
-
-  .table-cell
-  {
-    display: inline-block;
-  }
-
 }
