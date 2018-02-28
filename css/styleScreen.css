@@ -391,4 +391,45 @@ text-shadow: 5px 4px 3px rgba(0,0,0, .5);
   {
     display: inline-block;
   }
+
+  #ModalCenter01 h5
+  {
+    width: auto;
+  }
+
+  #ModalCenter01 .modal-body
+  {
+    width: auto;
+    padding: 15px 28px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: monospace;
+    text-align: justify;
+  }
+
+  #ModalCenter01 .modal-content
+  {
+    width: auto;
+  }
+
+  #ModalCenter01 .modal-header
+  {
+    padding: 0;
+  }
+
+  #ModalCenter01 .modal-header h5
+  {
+    text-align: center;
+    font-size: 52px;
+    width: auto;
+    margin: auto;
+  }
+
+  #ModalCenter01 .modal-dialog
+  {
+    font-family: 'amatic sc', cursive;
+    margin: 7px auto;
+    max-width: 55%;
+  }
+
 }
